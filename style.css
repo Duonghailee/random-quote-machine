@@ -1,0 +1,52 @@
+/*styling background */
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: cornflowerblue !important;
+}
+
+#content {
+    background-color: white;
+    padding: 50px 100px 50px 100px;
+    margin: 75px 150px 12px 150px;
+    border-radius: 20px;
+}
+
+
+/* Style all font awesome icons */
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Set a specific color for each brand */
+
+
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-tumblr {
+    background: rgb(44, 71, 98);
+    color: white;
+}
