@@ -5,6 +5,12 @@ html {
     height: 100%;
 }
 
+.container {
+    /* adding more space */
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
 .bg {
     /* The image used */
     background-image: url("");
@@ -17,11 +23,26 @@ html {
     background-color: cornflowerblue !important;
 }
 
-#content {
+
+/* Show in default resolution screen*/
+
+.content {
     background-color: white;
-    padding: 50px 100px 50px 100px;
-    margin: 75px 150px 12px 150px;
-    border-radius: 20px;
+    width: 960px;
+    position: relative;
+    margin: 100px auto;
+    line-height: 1.4em;
+    border-radius: 10px;
+    border: solid black;
+}
+
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
+
+@media only screen and (max-width: 479px) {
+    .content {
+        width: 90%;
+    }
 }
 
 
