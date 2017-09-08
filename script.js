@@ -17,7 +17,7 @@ function getQuote() {
             $("#cite").html(currentAuthor);
 
             $("#tumblr").attr("href", 'https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=' + encodeURIComponent(currentAuthor) + '&content=' + encodeURIComponent(currentQuote) + '&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button');
-            $("#twitter").attr("href", 'https://twitter.com/intent/tweet?hashtags=quotes&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
+            $("#twitter").attr("href", 'https://twitter.com/intent/tweet?hashtags=quotes&via=duonghailee&text=' + encodeURIComponent('"' + currentQuote + '" ' + currentAuthor));
         }
     })
 }
