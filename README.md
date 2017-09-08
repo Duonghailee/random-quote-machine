@@ -8,10 +8,10 @@ Built in HTML, CSS, JS and jQuery
 
 # Features
 - Auto generate a new quote
-- Facebook and twitter quickly share button
+- Tumbler and twitter quickly share button
 
 
 # How to use
-- click for new quote
--  click twitter or fb icon to share
+- Click for new quote
+- Click twitter or tumbler icon to share
 
